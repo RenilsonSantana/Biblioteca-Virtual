@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bibliotech</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+        <script src="JavaScript/jquery.min.js"></script>
+        <script type="text/javascript" src="JavaScript/jcarousellite.js"></script>
+    </head>
+    <body>
+        <img class="logo" src="imagens/logo.png">
+        <h1>Destaques</h1>
+        <div class="black">
+            <div id="content">
+                <div id="carrossel">
+                    <ul>
+                        <li>
+                            <img src="imagens/6e596dd29bcb8d4c0c916d0434ccf6b5.jpg" title="O pequeno príncipe">
+                        </li>
+                        <li>
+                            <img src="imagens/788640e220a32926802d6c0333ae84f4.jpg" title="O melhor de mim">
+                        </li>
+                        <li>
+                            <img src="imagens/arian.jpg" title="As crônicas de Arian">
+                        </li>
+                        <li>
+                            <img src="imagens/como eu era.jpg" title="Como eu era antes de você">
+                        </li>
+                        <li>
+                            <img src="imagens/crepusculo.jpg" title="Crepúsculo">
+                        </li>
+                        <li>
+                            <img src="imagens/narnia.jpg" title="As crônicas de Nárnia">
+                        </li>
+                        <li>
+                            <img src="imagens/naruto.jpg" title="Naruto">
+                        </li>
+                        <li>
+                            <img src="imagens/Ready_Player_One_(filme).png" title="Jogador número 1">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="alugar">
+                <h1>Livros Disponiveis</h1>
+            <div class="livro">
+                <img src="imagens/6e596dd29bcb8d4c0c916d0434ccf6b5.jpg" title="O pequeno príncipe">
+                <p>Sinopse: A Pequena Garota encontra o excêntrico Aviador, que a introduz ao mágico mundo do Pequeno Príncipe. Neste mundo em que tudo é possível, a Garota aprende a redescobrir sua infância.</p>
+                <p>Lançamento: 1943</p>
+                <input type="image" src="imagens/botao_alugar.png">
+            </div>
+            <div class="livro">
+                <img src="imagens/788640e220a32926802d6c0333ae84f4.jpg" title="O melhor de mim">
+                <p>Sinopse: Amanda e Dawson se apaixonaram perdidamente na primavera 1964. Ela, uma garota bonita e de família tradicional, via no namorado um porto seguro para toda a sua paixão e seu espírito livre. Separados pelo destino, cada um seguiu o seu caminho até que, após 20 anos, um encontro inesperado traz à tona sentimentos que estavam perdidos no passado.</p>
+                <p>Lançamento: 2014</p>
+                <input type="image" src="imagens/botao_alugar.png">
+            </div>
+            <div class="livro">
+                <img src="imagens/arian.jpg" title="As crônicas de Arian">
+                <p>Sinopse: Um garoto acordou sem suas memórias perto de uma estrada do Sul. Com ele, apenas uma espada em condições ruins, mas com propriedades anormais. Ajudado por uma família, e depois por membros de uma guild, ele logo constatou que todos que ficavam perto dele acabam sofrendo, e se isolou.</p>
+                <p>Lançamento: 2018</p>
+                <input type="image" src="imagens/botao_alugar.png">
+            </div>
+            <div class="livro">
+                <img src="imagens/como eu era.jpg" title="Como eu era antes de você">
+                <p>Sinopse: A jovem e peculiar Louisa "Lou" Clark transita de emprego a emprego para ajudar a sustentar sua família. Entretanto, sua atitude alegre é testada quando se torna cuidadora de Will Traynor.</p>
+                <p>Lançamento: 2012</p>
+                <input type="image" src="imagens/botao_alugar.png">
+            </div>
+            <div class="livro">
+                <img src="imagens/crepusculo.jpg" title="Crepúsculo">
+                <p>Sinopse: A estudante Bella Swan conhece Edward Cullen, um belo mas misterioso adolescente. Edward é um vampiro, cuja família não bebe sangue, e Bella, longe de ficar assustada, se envolve em um romance perigoso com sua alma gêmea imortal.</p>
+                <p>Lançamento: 2005</p>
+                <input type="image" src="imagens/botao_alugar.png">
+            </div>
+        </div>
+        <footer id="rodape">
+            <p>Copyright&copy; - by Bibliotech</p>
+        </footer>
+        <script>
+            $(function() {
+                $("#carrossel"). jCarouselLite({
+                    btnPrev: '.prev', 
+                    btnNext: '.next',
+                    visible: 4,
+                    auto: 2000,
+                    speed: 1000
+                })
+            })
+        </script>
+    </body>
+</html>
