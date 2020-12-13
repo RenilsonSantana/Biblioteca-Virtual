@@ -3,7 +3,34 @@
 body{
     background: url(../imagens/bg.png);
     text-align: center;
+    color: cyan;
 }
+
+ul{
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li{
+    display: inline;
+    color: white;
+}
+
+li a{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 13px;
+    color: white;
+    border-radius: 7px;
+}
+
+li a:hover{
+    color: cyan;
+    transition: 1s;
+    text-decoration: none;
+}
+
 
 h1{
     color: yellow;
@@ -26,7 +53,7 @@ div img{
     width: 200px;
     height: 300px;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 div.alugar{
@@ -44,7 +71,6 @@ div.livro{
     margin: 5px;
     height: 650px;
     background-color: rgba(0, 0, 0, .5);
-    
 }
 
 #content {
@@ -71,9 +97,31 @@ div.livro{
 	opacity: .9;
 }
 
+section{
+    box-shadow: #444 2px 2px 5px;
+    border-radius: 25px;
+    margin: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, .7);;
+}
+
 
 footer{
     clear: both;
     color: white;
     padding-top: 5px;
 }
+
+form{
+    width: 85%;
+    margin: auto;
+}
+
+input#nasc{
+    width: 150px;
+}
+
+div#btn{
+    text-align: center;
+}
+
